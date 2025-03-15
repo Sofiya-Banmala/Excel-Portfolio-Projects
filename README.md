@@ -338,7 +338,7 @@ This project is valuable for aspiring **Data Analysts, Business Analysts, and Ex
 This project analyzes **Australian housing market trends** using Excel. The dashboard provides insights into **property sales, price distribution, and agency performance** across different suburbs. It helps in understanding how various factors, such as property type, number of bedrooms, and location, impact house prices.  
 
 ## Dashboard Preview  
-![image alt]()
+![image alt](https://github.com/Sofiya-Banmala/Excel-Portfolio-Projects/blob/main/Australian%20Housing%20Dashboard/dashboard.JPG)
 
 ## Objective  
 The main goals of this analysis are:  
