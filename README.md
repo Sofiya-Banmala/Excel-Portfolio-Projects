@@ -333,22 +333,21 @@ This project is valuable for aspiring **Data Analysts, Business Analysts, and Ex
 **Visualization & Dashboarding**  
 
 # **Australian Housing Data Analysis Project**
-# Australian Housing Market Analysis  
 
 ## Project Overview  
-This project analyzes **Australian housing market trends** using Excel. The dashboard provides insights into **property sales, price ranges, and demand patterns** across different suburbs. It helps in understanding how various factors, such as property type, number of bedrooms, and location, impact house prices.  
+This project analyzes **Australian housing market trends** using Excel. The dashboard provides insights into **property sales, price distribution, and agency performance** across different suburbs. It helps in understanding how various factors, such as property type, number of bedrooms, and location, impact house prices.  
 
 ## Dashboard Preview  
-![Dashboard Screenshot](your-image-link-here)  
-*(Replace the above link with the actual image URL from your repository)*  
+![image alt]()
 
 ## Objective  
 The main goals of this analysis are:  
-- Analyze **housing price trends** over time.  
-- Compare **housing prices** across different cities and suburbs.  
-- Identify **factors influencing sale prices**, such as bedrooms, property type, and location.  
-- Detect **outliers** and anomalies in property sales.  
-- Categorize properties into **low, medium, and high price brackets** to assess affordability.  
+- **Distribution by Property Type** – Compare the number of houses vs. units sold.  
+- **Distribution by Suburb** – Identify which suburbs have the highest sales.  
+- **Top 5 Agencies by Suburb** – Analyze the top real estate agencies based on sales volume.  
+- **Properties Sold Over Time** – Track sales trends across different months.  
+- **Price Distribution** – Categorize properties into different price ranges.  
+- **Correlation Between Price and Bedrooms** – Determine if more bedrooms lead to higher sale prices.  
 
 ## Data Collection  
 - **Source:** Web scraping from **CoreLogic** website.  
@@ -368,31 +367,34 @@ The dataset was cleaned and processed in **Excel** by performing:
 - **Calculating statistical measures** (Mean, Median, and Mode) to understand pricing trends.  
 
 ## Key Features of the Dashboard  
-### 1. **Overall Market Summary**  
-- **Total Properties Sold** – 101 properties.  
-- **Median Sale Price** – $3,054,909.67.  
-- **Property Type Distribution** – 57 Houses, 44 Units.  
+### 1. **Distribution by Property Type**  
+- Breakdown of sales between **Houses and Units**.  
+- Helps understand **buyer preferences** in different areas.  
 
-### 2. **Top Properties by Agency**  
-- Identifies the **top 5 real estate agencies** based on the number of properties sold.  
-- Displays the **average sale price** handled by each agency.  
+### 2. **Distribution by Suburb**  
+- Identifies the **most active suburbs** in terms of sales.  
+- Allows comparison between different **regions and neighborhoods**.  
 
-### 3. **Properties Sold by Price Range**  
-- Categorizes properties into different **price brackets** (e.g., 500K-600K, 700K-800K, 1M+).  
-- Shows how many properties were sold in each range.  
+### 3. **Top 5 Agencies by Suburb**  
+- Lists the **top-performing real estate agencies** based on total properties sold.  
+- Shows the **average price range** of properties handled by each agency.  
 
-### 4. **Sales Trend Over Time**  
+### 4. **Properties Sold Over Time**  
 - **Bar Chart** visualizing **properties sold per month** (December to March).  
 - Helps track **seasonal trends** in housing demand.  
 
-### 5. **Correlation Analysis**  
+### 5. **Price Distribution**  
+- Groups properties into **different price brackets** (e.g., 500K-600K, 700K-800K, 1M+).  
+- Shows the **affordability range** of houses sold.  
+
+### 6. **Correlation Between Price and Bedrooms**  
 - **Scatter plot** showing the relationship between **number of bedrooms** and **sales price**.  
 - Identifies whether adding more bedrooms increases property value.  
 
 ## Insights & Key Findings  
 - **Most properties sold are priced above $1M**, indicating a high-value housing market.  
 - **December had the highest number of property sales** (42 properties), suggesting seasonal trends.  
-- **The number of bedrooms has a moderate correlation with price**, but other factors likely influence sales.  
+- **The number of bedrooms has a moderate correlation with price**, but other factors also influence sales.  
 - **Agencies with the highest sales have an average price range of $800K to $1M**, showing their market focus.  
 - **Units in Auburn have different pricing trends compared to nearby suburbs like Burwood**, which can influence buyer decisions.  
 
@@ -401,9 +403,8 @@ The dataset was cleaned and processed in **Excel** by performing:
 - **Pivot Tables** – Used for grouping and summarizing data.  
 - **Excel Formulas** – Used for calculations (SUM, AVERAGE, COUNTIF, IFERROR).  
 - **Conditional Formatting** – Highlighting price variations and agency performance.  
-- **Data Visualization** – Bar charts, scatter plots, and slicers for filtering data.  
-
-
+- **Data Visualization** – Bar charts, scatter plots, and slicers for filtering data.
+  
 ## How to Use?  
 1. **Browse** the repository to find the desired Excel tool.  
 2. **Download** the spreadsheet and open it in **Microsoft Excel** or **Google Sheets**.  
