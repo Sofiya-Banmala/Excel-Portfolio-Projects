@@ -12,15 +12,15 @@ This repository serves as a centralized space to store and track all my Excel pr
    
 This project is a Budget Tracking project which is a simple and efficient tool for managing income, expenses, and savings.  
 
-![image alt](https://github.com/Sofiya-Banmala/Excel-Project/blob/main/income.JPG?raw=true)
+![image alt](https://github.com/Sofiya-Banmala/Excel-Portfolio-Projects/blob/main/Images/waterfall%20chart.JPG)
 
 The **Income Breakdown** chart shows how your salary is affected by deductions like taxes, insurance, and superannuation. These reduce your total income, but a bonus adds to it, resulting in your final net income. This Waterfall Chart is useful for tracking budget changes and understanding how different amounts increase or decrease over time.
 
-![image alt](https://github.com/Sofiya-Banmala/Excel-Project/blob/main/expenses.JPG?raw=true)]
+![image alt](https://github.com/Sofiya-Banmala/Excel-Portfolio-Projects/blob/main/Images/funnel%20chart.JPG)
 
 The **Expenses Breakdown** chart shows how your total spending is divided into different categories. The biggest costs are for housing and food, followed by smaller expenses like travel, fuel, gym, and phone bills. This Funnel Chart helps show how expenses decrease step by step. It is often used to track spending or see where people drop off in a process, like a customer journey.
 
-![image alt](https://github.com/Sofiya-Banmala/Excel-Project/blob/main/donut.JPG?raw=true)
+![image alt](https://github.com/Sofiya-Banmala/Excel-Portfolio-Projects/blob/main/Images/donut.JPG)
 
 The **% Expenses chart** is a Donut Chart, which looks like a pie chart but has a hole in the middle. It shows that 94% of your income goes to expenses, leaving only 6% as savings. Donut charts are great for dashboard reports because they look clean and make it easy to compare parts of a whole. They are often used instead of pie charts when you need a modern look with space for extra labels.
 
@@ -333,8 +333,75 @@ This project is valuable for aspiring **Data Analysts, Business Analysts, and Ex
 **Visualization & Dashboarding**  
 
 # **Australian Housing Data Analysis Project**
+# Australian Housing Market Analysis  
 
-## Project Overview
+## Project Overview  
+This project analyzes **Australian housing market trends** using Excel. The dashboard provides insights into **property sales, price ranges, and demand patterns** across different suburbs. It helps in understanding how various factors, such as property type, number of bedrooms, and location, impact house prices.  
+
+## Dashboard Preview  
+![Dashboard Screenshot](your-image-link-here)  
+*(Replace the above link with the actual image URL from your repository)*  
+
+## Objective  
+The main goals of this analysis are:  
+- Analyze **housing price trends** over time.  
+- Compare **housing prices** across different cities and suburbs.  
+- Identify **factors influencing sale prices**, such as bedrooms, property type, and location.  
+- Detect **outliers** and anomalies in property sales.  
+- Categorize properties into **low, medium, and high price brackets** to assess affordability.  
+
+## Data Collection  
+- **Source:** Web scraping from **CoreLogic** website.  
+- **Dataset Includes:**  
+  - Property Sale Prices  
+  - Number of Bedrooms & Bathrooms  
+  - Property Type (House/Unit)  
+  - Sale Date  
+  - Suburb and City  
+  - Agency Handling the Sale  
+
+## Data Cleaning & Processing  
+The dataset was cleaned and processed in **Excel** by performing:  
+- **Removing duplicates and handling missing values** (e.g., replacing "N/A" in the "Sold by" column).  
+- **Standardizing Sale Date format** for consistency.  
+- **Detecting and removing outliers**, such as properties listed at $1 or incorrect price ranges.  
+- **Calculating statistical measures** (Mean, Median, and Mode) to understand pricing trends.  
+
+## Key Features of the Dashboard  
+### 1. **Overall Market Summary**  
+- **Total Properties Sold** – 101 properties.  
+- **Median Sale Price** – $3,054,909.67.  
+- **Property Type Distribution** – 57 Houses, 44 Units.  
+
+### 2. **Top Properties by Agency**  
+- Identifies the **top 5 real estate agencies** based on the number of properties sold.  
+- Displays the **average sale price** handled by each agency.  
+
+### 3. **Properties Sold by Price Range**  
+- Categorizes properties into different **price brackets** (e.g., 500K-600K, 700K-800K, 1M+).  
+- Shows how many properties were sold in each range.  
+
+### 4. **Sales Trend Over Time**  
+- **Bar Chart** visualizing **properties sold per month** (December to March).  
+- Helps track **seasonal trends** in housing demand.  
+
+### 5. **Correlation Analysis**  
+- **Scatter plot** showing the relationship between **number of bedrooms** and **sales price**.  
+- Identifies whether adding more bedrooms increases property value.  
+
+## Insights & Key Findings  
+- **Most properties sold are priced above $1M**, indicating a high-value housing market.  
+- **December had the highest number of property sales** (42 properties), suggesting seasonal trends.  
+- **The number of bedrooms has a moderate correlation with price**, but other factors likely influence sales.  
+- **Agencies with the highest sales have an average price range of $800K to $1M**, showing their market focus.  
+- **Units in Auburn have different pricing trends compared to nearby suburbs like Burwood**, which can influence buyer decisions.  
+
+## Tools & Techniques Used  
+- **Microsoft Excel** – Data Cleaning, Analysis, and Visualization.  
+- **Pivot Tables** – Used for grouping and summarizing data.  
+- **Excel Formulas** – Used for calculations (SUM, AVERAGE, COUNTIF, IFERROR).  
+- **Conditional Formatting** – Highlighting price variations and agency performance.  
+- **Data Visualization** – Bar charts, scatter plots, and slicers for filtering data.  
 
 
 ## How to Use?  
